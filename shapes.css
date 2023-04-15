@@ -1,0 +1,62 @@
+footer:after {
+    background-image: url("data:image/svg+xml,%3Csvg data-name='Layer 1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 120' preserveAspectRatio='none'%3E%3Cpath d='M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z' fill='white'%3E%3C/path%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0.2vw;
+    pointer-events: none;
+    z-index: 3;
+    transform: rotate(180deg);
+    width: calc(271% + 1.3px);
+    height: 94px;
+}
+
+.section-3:before {
+	background-image: url("data:image/svg+xml,%3Csvg data-name='Layer 1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 120' preserveAspectRatio='none'%3E%3Cpath d='M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z' fill='white'%3E%3C/path%3E%3C/svg%3E");
+	background-repeat: no-repeat;
+    background-size: 100% 100%;
+    content: '';
+    position: absolute;
+    left: -0.1vw;
+    top: 0;
+    right: -0.1vw;
+    pointer-events: none;
+    z-index: 3;
+    width: calc(271% + 1.3px);
+    height: 94px;
+}
+
+/*Add underline to p*/
+p em {
+    background: linear-gradient(180deg,rgba(255,255,255,0) 65%,#7f822936 65%);
+    border-bottom: none !important;
+    font-style: normal !important;
+}
+
+/*Add mark thing to headings
+
+<div class="heading" id="project">
+<div class="heading-shape">
+</div>
+<h2>
+<strong>The Project</strong>
+</h2>
+</div>
+*/
+
+.heading {
+    position: relative;
+}
+
+.heading-shape {
+    background-color: #f8c82c;
+    height: 40px;
+    position: absolute;
+    top: 7px;
+    transform: rotate(-3deg);
+    width: 30%;
+    z-index: -4;
+}
+
